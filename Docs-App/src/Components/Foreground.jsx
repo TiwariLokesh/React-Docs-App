@@ -1,8 +1,12 @@
 import React from 'react'
+import Cards from './Cards'
 
 function Foreground() {
   return (
-   <div className='fixed top-0 left-0 w-full h-screen bg-sky-800/50 z-[3]'></div>
+   <div className='fixed top-0 left-0 w-full h-screen z-[3]'>
+    <Cards/>
+     
+   </div>
   )
 }
 
